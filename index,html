@@ -11,18 +11,26 @@
 
 h1 {
     text-align:center;
-    text-size:10px;
+    font-size:100px;
+    color:red;
+}
+
+.container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* высота контейнера, чтобы центрировать по вертикали */
 }
 
 .donut {
-    text-align:center;
+
 }
-
-
 
 </style>
 <body>
 <h1>Мир пончиков</h1>
-<img class='donut' src="/uploads/2023/02/donut.png">
+<div class="container">
+    <img class='donut'  src="/uploads/2023/02/donut.png">
+</div>
 </body>
 </html>
